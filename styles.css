@@ -18,7 +18,7 @@ a {
     background-color: #1F2937;
 }
 
-.logo, .main, button {
+.logo, .main, button, .call-header {
     color: #f9faf8;
 }
 
@@ -36,7 +36,7 @@ a {
     font-weight: 900;
 }
 
-a, .secondary {
+a, .secondary, .text, .footer {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -46,8 +46,32 @@ button {
     font-weight: 700;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight:900;
+}
+
+.info-header, .quote {
+    color: #1f2937;
+}
+
+.item {
+    color: #444444;
+}
+
 .testimonial {
     background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoted {
+    font-size: 24px;
+    font-weight:700;
 }
 
 .call, button {
