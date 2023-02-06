@@ -52,7 +52,7 @@ a {
 
 .container-two {
     display:flex;
-    margin: 64px 124px;
+    margin: 72px 124px 96px;
     align-items: center;
 }
 
@@ -74,47 +74,114 @@ button {
     font-weight: 700;
     border-radius: 10px;
     padding: 8px 32px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.hero-signup {
     border:none;
 }
 
-a, .secondary, .text, .footer {
+a, .secondary, .footer {
     color: #ffeae7;
     font-size: 18px;
 }
 
-.image {
+.hero-image {
     width: 450px;
     text-align: center;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+}
 .info-header {
     font-size: 36px;
     font-weight:900;
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
 }
 
-.info-header, .quote {
-    color: #1f2937;
+.info-header, .testimonial {
+    color: #974e00;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 .item {
     color: #444444;
+    width: 200px;
+    text-align: center;
 }
 
 .testimonial {
     background-color: #fee8c1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 180px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    align-items: center;
+    margin-top: 96px;
 }
 
 .quoted {
     font-size: 24px;
     font-weight:700;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 96px;
 }
 
 .call, button {
     background-color: #57b0c4;
 }
+
+.call {
+    display: flex;
+    margin: 96px 96px;
+    padding: 48px 96px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-header {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text {
+    color: #ddf6fb;
+}
+
+.right {
+    display: flex;
+}
+
+.call-signup {
+    border-color: #f9faf8;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+
